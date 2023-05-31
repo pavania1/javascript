@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict";
+            let x=prompt("the value of x?",'');
+            let n=prompt("The value of n?",'');
+            function pow(x,n){
+                let res=x;
+                for (let i=1; i<=n; i++){
+                    res=res*x;
+                }return res;
+            }
+            if (n<1){
+                alert("power ${n} is not supported, ");
+            }else{
+                alert( pow(x,n));
+            }
+        </script>
+    </body>
+</html>
